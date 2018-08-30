@@ -1,0 +1,149 @@
+body{
+	background-color: #efefef;
+	font-family: Arial;
+}
+h1, h2{
+    text-align: center;
+	color: #aaa;
+}
+p{
+	margin: 10px;
+	line-height: 150%;
+	font-size: 0.9em;
+}
+#container{
+	width: 30%;
+	margin: 10px auto 10px auto;
+	text-align: justify;
+}
+input{
+	text-align: center;
+	background-color: #ababab;
+	color: #eee;
+	font-weight: 700;
+	border: none;
+	padding: 10px 15px;
+	margin: 15px auto;
+	display: block;
+	border-radius: 5px;
+}
+input:hover{
+	background-color: #bcbcbc;
+}
+form{
+    text-align: center;
+}
+
+
+
+
+#wrapper{
+    display: flex;
+    flex-flow: column;
+    margin: 1%;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    //background-color: #fff;
+}
+
+#wrapper > header{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 700;
+    align-items: center;
+    background-color:  #555;
+    //line-height: 300%;
+    margin: 0 1%;
+}
+
+#wrapper > header > div{
+    margin: 1% 1% 1% 0%;
+    flex: 3 0 100px;
+    padding: 1%;
+}
+#wrapper > header > div:first-child{
+    flex-grow: 1;
+    margin-right: 0;
+}
+
+#wrapper > header > div > span{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+#wrapper > header > div:nth-child(2) > span{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#wrapper > main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 6;
+}
+
+#wrapper > main > div{
+    margin: 1%;
+    background-color: #fff;
+    flex: 3 0 100px;
+    padding: 1%;
+}
+
+#wrapper > main > div > section > h1{
+    border-bottom: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+    padding: 10px;
+    color: #222;
+    font-weight: 400;
+}
+
+#wrapper > main > div:first-child{
+    flex-grow: 1;
+    background-color: #004a80;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#wrapper > main > div:first-child > img{
+    display: block;
+    width: 70%;
+    margin: 5% auto;
+}
+
+#wrapper > main > div:first-child > span{
+    margin-left: 10%;
+    font-size: 0.9em;
+    display: block;
+}
+
+#wrapper > main > div:first-child > h3 {
+    background-color: #555;
+    padding: 10px 5px;
+    margin: 4% 0;
+    font-weight: 400;
+}
+
+#wrapper > main > div:first-child > ul{
+    list-style-type: none;
+}
+
+#wrapper > main > div:first-child > h4 {
+    font-size: 0.9em;
+    margin: 10px;
+    font-weight: 400;
+}
+
+#wrapper > footer{
+    background-color: #004a80;
+    margin: 0 1%;
+    flex-grow: 1;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
