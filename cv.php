@@ -46,6 +46,7 @@ $data['hobby'] = $_GET['hobby'];
                 <div>
                     <section id="edukacja">
                         <h1>Edukacja</h1>
+                        <button class="btn" type="button">Dodaj</button>
                     </section>
                     <section id="umiejetnosci">
                         <h1>Umiejętności</h1>
@@ -59,7 +60,7 @@ $data['hobby'] = $_GET['hobby'];
                     <p>"Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; (tekst jednolity: Dz. U. 2016 r. poz. 922)."</p>
             </footer>
         </div>
-        
+        <script src="add.js"></script>
     </body>
 
 </html>
