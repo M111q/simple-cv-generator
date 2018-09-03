@@ -101,16 +101,20 @@ form{
     font-weight: 400;
 }
 
-#wrapper > main > div > section .education-wrapper{
+#edukacja{
+    display: flex;
+    flex-direction: column;
+}
+#education-wrapper, .education-content{
     display: flex;
 }
 
-.education-wrapper div{
-    margin: 10px 5%;
+#education-wrapper div, .education-content{
+    margin: 10px 3%;
     padding: 0;
 }
 
-.education-wrapper div input{
+#education-wrapper div input{
     width: 100%;
     height: 30px;
     font-size: 0.7em;
@@ -118,17 +122,18 @@ form{
     margin: 5px 0;
 }
 
-.education-wrapper div p{
+.education-content p{
     margin: 0;
-    padding: 0;
+    padding: 2%;
+    font-size: 0.8em;
 }
 
-.date{
+.left-side{
     flex: 1 5 50px;
 }
 
-.content{
-        flex: 5 0 50px;
+.right-side{
+        flex: 3 0 50px;
 }
 #wrapper > main > div:first-child{
     flex-grow: 1;

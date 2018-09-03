@@ -46,6 +46,18 @@ $data['hobby'] = $_GET['hobby'];
                 <div>
                     <section id="edukacja">
                         <h1>Edukacja</h1>
+                        <div id="education-wrapper">
+                            <div class="left-side">
+                                <form id="date-holder">
+                                    <input type="text" placeholder="Wpisz lata nauki">
+                                </form>
+                            </div>
+                            <div class="right-side">
+                                <form id="school-holder">
+                                    <input type="text" placeholder="Wpisz skończoną szkołę">
+                                </form>
+                            </div>
+                        </div>
                         <button class="btn" type="button">Dodaj</button>
                     </section>
                     <section id="umiejetnosci">
