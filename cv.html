@@ -46,14 +46,14 @@ $data['hobby'] = $_GET['hobby'];
                 <div>
                     <section id="edukacja">
                         <h1>Edukacja</h1>
-                        <div id="education-wrapper">
+                        <div class="section-wrapper">
                             <div class="left-side">
-                                <form id="date-holder">
+                                <form class="left-input">
                                     <input type="text" placeholder="Wpisz lata nauki">
                                 </form>
                             </div>
                             <div class="right-side">
-                                <form id="school-holder">
+                                <form class="right-input">
                                     <input type="text" placeholder="Wpisz skończoną szkołę">
                                 </form>
                             </div>
@@ -62,9 +62,23 @@ $data['hobby'] = $_GET['hobby'];
                     </section>
                     <section id="umiejetnosci">
                         <h1>Umiejętności</h1>
+                        <!-- ################################################# -->
                     </section>
                     <section id="doswiadczenie">
                         <h1>Doświadczenie</h1>
+                        <div class="section-wrapper">
+                            <div class="left-side">
+                                <form class="left-input">
+                                    <input type="text" placeholder="Wpisz lata pracy">
+                                </form>
+                            </div>
+                            <div class="right-side">
+                                <form class="right-input">
+                                    <input type="text" placeholder="Wpisz poprzednie prace">
+                                </form>
+                            </div>
+                        </div>
+                        <button class="btn" type="button">Dodaj</button>
                     </section>
                 </div>
             </main>
