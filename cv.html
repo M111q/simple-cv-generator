@@ -43,7 +43,7 @@ $data['hobby'] = $_GET['hobby'];
                     <h3>Języki obce</h3>
                     <span><?php echo $data['foreign_language'];?></span>
                 </div>
-                <div>
+                <div id="main-content">
                     <section id="edukacja">
                         <h1>Edukacja</h1>
                         <div class="section-wrapper">
@@ -87,6 +87,7 @@ $data['hobby'] = $_GET['hobby'];
             </footer>
         </div>
         <script src="add.js"></script>
+        <script src="delete.js"></script>
     </body>
 
 </html>

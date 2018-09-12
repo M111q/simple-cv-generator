@@ -35,3 +35,14 @@ buttons.forEach(function(item){
 
     });
 });
+
+// delete content
+
+var mainContent = document.querySelector('#main-content');
+
+mainContent.addEventListener('dblclick', (e) => {
+    if(e.target.className == 'left-side' && e.target.tagName == 'P' || e.target.className == 'right-side' && e.target.tagName == 'P')
+        {   
+            e.target.parentElement.parentElement.removeChild(e.target.parentElement);
+        }
+});
