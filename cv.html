@@ -62,7 +62,21 @@ $data['hobby'] = $_GET['hobby'];
                     </section>
                     <section id="umiejetnosci">
                         <h1>Umiejętności</h1>
-                        <!-- ################################################# -->
+                          <div class="section-wrapper">
+                            <div class="left-side">
+                                <form class="left-input">
+                                     <input type="radio" name="level" value="Zaawansowany"> <span>Zaawansowany</span>
+                                     <input type="radio" name="level" value="Średni"> <span>Średni</span>
+                                     <input type="radio" name="level" value="Niski"> <span>Niski</span>
+                                </form>
+                            </div>
+                            <div class="right-side">
+                                <form class="right-input">
+                                    <input type="text" onfocus="this.value=''" placeholder="Wpisz umiejetności">
+                                </form>
+                            </div>
+                        </div>
+                        <button class="btn" type="button">Dodaj</button>
                     </section>
                     <section id="doswiadczenie">
                         <h1>Doświadczenie</h1>

@@ -105,6 +105,15 @@ form{
     display: flex;
     flex-direction: column;
 }
+
+.left-input span{
+    font-size: 0.7em;
+}
+
+#umiejetnosci .section-wrapper .left-side input{
+    height: 12px;
+}
+
 .section-wrapper, .section-content{
     display: flex;
 }
